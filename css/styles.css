@@ -1,0 +1,87 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9% 5%;
+    overflow: hidden;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    padding: 3.5% 2.5% 2% 2.5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+}
+
+.profile{
+    position: relative;
+    top: -20px;
+    border-radius: 50%;
+    max-width: 30%;
+    height: auto;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 400;
+    margin: 2px 0 0;
+}
+
+h2{
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter";
+    font-size: 15px;
+    margin-top: 9px;
+}
+
+p{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+.buttonlist{
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+}
+
+.button{
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 100px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+.buttonlast{
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 100px;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+.buttonlast:hover{
+    background-color: hsl(75, 94%, 57%);
+}
